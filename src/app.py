@@ -1,6 +1,7 @@
 """
     Easy Azure Streamlit Demo
     Author: Wolf Paulus (wolf@paulus.com)
+    some modifications by Heather M
 """
 from random import randint
 import streamlit as st
@@ -9,7 +10,7 @@ from log import logger
 
 def ui(items: [int]) -> None:
 
-    st.title("Streamlit Demo v0.4")
+    st.title("Heather's Streamlit Demo v0.4")
     st.subheader(".. on Azure")
     st.line_chart(items)
 
