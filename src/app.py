@@ -44,7 +44,7 @@ def ui(items: [int]) -> None:
         <div class="snowflake">{animation_symbol}</div>
         <div class="snowflake">{animation_symbol}</div>
         """,
-        unsafe_allow_html=True,
+        unsafe_allow_html=True
     )
 
     st.line_chart(items)
