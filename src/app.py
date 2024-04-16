@@ -1,3 +1,7 @@
+"""
+    Easy Azure Streamlit Demo
+    Author: Wolf Paulus (wolf@paulus.com)
+"""
 from random import randint
 import streamlit as st
 from log import logger
@@ -14,5 +18,3 @@ if __name__ == "__main__":
     data = [randint(0, 10) for _ in range(25)]
     logger.info(f"Created a list with {len(data)} items.")
     ui(data)
-
-
