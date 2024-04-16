@@ -62,3 +62,4 @@ if __name__ == "__main__":
     data = [randint(0, 10) for _ in range(25)]
     logger.info(f"Created a list with {len(data)} items.")
     ui(data)
+    
