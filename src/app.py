@@ -27,7 +27,8 @@ def ui(items: [int]) -> None:
 
     local_css("./style/style.css")
     st.markdown(
-        "<h2 style='text-align: center;'>Enjoy your summer break.</h2>", unsafe_allow_html=True
+        "<h2 style='text-align: center;'>Enjoy your summer break.</h2>",
+        unsafe_allow_html=True
     )
     st.write("")
 
