@@ -9,20 +9,22 @@ from random import randint
 import streamlit as st
 from log import logger
 
-# Page Settings
+# Page Setting
 favicon = "🏆"
 st.set_page_config(page_title="Congrats on end of Semester", page_icon=favicon)
 
 # Use local CSS
+
+
 def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-def ui(items: [int]) -> None:
 
+def ui(items: [int]) -> None:
     st.title("Heather's Streamlit Demo v0.4")
     st.subheader(".. on Azure")
-   
+
     local_css("./style/style.css")
     st.markdown(
         "<h2 style='text-align: center;'>Enjoy your summer break.</h2>", unsafe_allow_html=True
@@ -48,8 +50,6 @@ def ui(items: [int]) -> None:
     )
 
     st.line_chart(items)
-    
-
 
 
 if __name__ == "__main__":
