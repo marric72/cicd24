@@ -14,6 +14,6 @@ st.markdown(title, unsafe_allow_html=True)
 # write user input to screen
 n = st.text_input("Enter name")
 if len(n) > 0:
-    title = f'<p style="font-family:Courier; color:Blue; font-size: 20px;">Welcome {
-        n}</p>'
+    font1 = '<p style="font-family:Courier; color:Blue; font-size: 20px;">'
+    title = f'{font1}Welcome {n}</p>'
     st.markdown(title, unsafe_allow_html=True)
