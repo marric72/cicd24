@@ -4,6 +4,8 @@
     some modifications by Heather M
 
     snowflake like effect from YouTube: https://youtu.be/8SLiFCnFOEo?si=kZh25qA7n4tr-Nh2
+
+    Run this on local machine  with: python3 -m streamlit run src/app.py 
 """
 from random import randint
 import streamlit as st
